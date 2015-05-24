@@ -1,0 +1,14 @@
+{
+    "name": "es6-demo",
+    "description": "ES6-demo for BarCamp",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "preinstall": "npm install nodemon -g",
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "node-static": "*",
+        "babel-core": "*"
+    }
+}

@@ -1,0 +1,65 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+pre {
+    background: #333;
+    color: #fff;
+    padding: 20px 50px;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.CodeMirror {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.controls {
+    width: 100px;
+    height: 30px;
+    background: #aaa;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    opacity: .3;
+    font: 14px/30px verdana, sans-serif;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.controls:hover {
+    opacity: 1;
+}
+
+.controls, .controls * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.run-hint {
+    position: absolute;
+    font: 14px verdana, sans-serif;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, .3);
+    text-align: center;
+}

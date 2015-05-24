@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>ES6 - Iterators & Generators - Demo</title>
+    <!-- CodeMirror -->
+    <script type="text/javascript" src="/public/lib/codemirror/codemirror.js"></script>
+    
+    <!-- Edit addons -->
+    <script type="text/javascript" src="/public/lib/codemirror/codemirror.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/closebrackets.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/closetag.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/continuelist.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/matchbrackets.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/matchtags.js"></script>
+    <script type="text/javascript" src="/public/lib/codemirror/addon/edit/trailingspace.js"></script>
+
+    <!-- Runmode addon -->
+    <script type="text/javascript" src="/public/lib/codemirror/mode/javascript/javascript.js"></script>
+
+    <!-- Babel --> 
+    <script type="text/javascript" charset="utf-8" src="/node_modules/babel-core/browser-polyfill.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/node_modules/babel-core/browser.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/public/lib/codemirror/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="/public/lib/codemirror/theme/monokai.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+</head>
+<body>
+    <div class="run-hint">Help<br>Cmd + /</div>
+    
+    <textarea id="editor"></textarea>
+    <pre id="log"></pre>
+
+    <div class="controls">
+        <label>Auto-run <input type="checkbox" id="auto-run"></label>
+    </div>
+
+    <script type="text/babel" src="/public/js/script.js"></script>
+    <script type="text/javascript" src="/public/js/editor.js"></script>
+</body>
+</html>
