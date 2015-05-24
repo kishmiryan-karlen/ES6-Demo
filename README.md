@@ -5,12 +5,14 @@ For more details on Babel, please visit [here](https://babeljs.io/).
 
 #Usage
 1. Clone the repo
-  
-2. Run `npm install`
-  
-3. Run `npm start`
-  
-4. Open `http://localhost:3000` in Chrome or Firefox
+
+2. Navigate to the folder
+
+3. Run `npm install`
+
+4. Run `npm start`
+
+5. Open `http://localhost:3000/public` in Chrome or Firefox
 
 License
 ------
